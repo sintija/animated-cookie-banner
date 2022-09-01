@@ -3,3 +3,57 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.cookie-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cookie-container {
+  display: flex;
+  width: calc(30rem - 20px); 
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #673e27;
+  font-family: "Poppins", sans-serif;
+  background: #fffae9; 
+  border: 1px solid #673e27;
+  overflow: hidden;
+}
+
+#cookie { 
+  padding-right: 1rem;
+  overflow: visible;
+  width: 4.5rem;
+}
+
+.cookie-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.cookie-subtitle {
+  font-weight: light;
+  font-size: 0.7rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem
+}
+
+button {
+  border-style: none;
+  padding: 0.5rem 1rem;
+  background-color: #673e27;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+
+
+
+
